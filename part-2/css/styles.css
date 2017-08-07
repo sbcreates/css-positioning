@@ -13,6 +13,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 img {
@@ -26,4 +27,17 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.film-poster {
+  float: left;
+  width: 25%;
+}
+
+
+.action-like {
+  clear: both;
+  float: right;
 }
