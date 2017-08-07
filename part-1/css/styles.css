@@ -25,10 +25,14 @@ body {
 .box {
   width: 200px;
   height: 200px;
+  position: relative;
 }
 
 .red {
   background-color: pink;
+  position: absolute;
+  top: 50px;
+  right: 100px;
 }
 
 .green {
@@ -37,6 +41,8 @@ body {
 
 .blue {
   background-color: lightblue;
+  top: 50px;
+  left: 200px;
 }
 
 .orange {
